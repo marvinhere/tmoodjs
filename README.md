@@ -59,7 +59,7 @@ Para predecir un estado de ánimo utilice:<br>
 ## Nota
 Los datos del entrenamiento fueron creados con únicamente 35 frases simples en español y 19.990 iteraciones y con un error de entrenamiento de: 0,012046 
 
-##tmoodjs Licence
+## tmoodjs Licence
 MIT License
 
 Copyright (c) 2020 Marvin Josué Quiñónez Xitumul, Joaquín de la Cruz Hernández, José Alejandro García Herrera
@@ -82,7 +82,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-##Brainjs Licence
+## Brainjs Licence
 This project use Brainjs. <br>
 Copyright (c) 2010-2019 Heather Arthur
 

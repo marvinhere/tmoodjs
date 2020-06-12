@@ -1,6 +1,6 @@
 # tmoodjs Version Alpha 1.0
 ## Description
-A text based mood detection.<br>
+A text based mood prediction.<br>
 Simple library to detect a mood from a single text. 
 ## Install
 Add tmoodjs to your html.<br>
@@ -26,6 +26,10 @@ To predict a mood from a text:<br>
 <code>var text = 'He finalizado mi rutina de ejercicios';</code><br>
 <code>var result = m.guessMood(text);</code><br>
 <code>console.log(result);</code><br>
+
+## Integration example
+
+![Integration](images/integration.jpg)
 
 ## Restriction
 tmoodjs only works with a text without symbols and extrange characters. (ñ doens't works). Use only lowercase letters.

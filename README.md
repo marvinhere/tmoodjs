@@ -19,10 +19,11 @@ To start using tmoodjs it is necessary to create an object and initialize the br
 To predict a mood from a text:<br>
 <code>m.guessMood(text);</code>
 ### Example
-<code>var text = 'He finalizado mi rutina de ejercicios';</code><br>
 <code>var m = new mood();</code><br>
 <code>m.init();</code><br>
 <code>m.loadTrainingData('es');</code><br>
+<br>
+<code>var text = 'He finalizado mi rutina de ejercicios';</code><br>
 <code>var result = m.guessMood(text);</code><br>
 <code>console.log(result);</code><br>
 
@@ -53,12 +54,13 @@ Para empezar a usar tmoodjs es necesario crear un objeto e inicializar la neuron
 Para predecir un estado de ánimo utilice:<br>
 <code>m.guessMood(texto);</code>
 ### Ejemplo
-<code>var texto = 'He finalizado mi rutina de ejercicios';</code><br>
 <code>var m = new mood();</code><br>
 <code>m.init();</code><br>
 <code>m.loadTrainingData('es');</code><br>
-<code>var resultado = m.guessMood(texto);</code><br>
-<code>console.log(resultado);</code><br>
+<br>
+<code>var text = 'He finalizado mi rutina de ejercicios';</code><br>
+<code>var result = m.guessMood(text);</code><br>
+<code>console.log(result);</code><br>
 
 ## Restricciones
 tmoodjs solo funciona con texto sin símbolos y sin caracteres extraños. ( la ñ no funciona). Usar solamente letras minúsculas.

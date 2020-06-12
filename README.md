@@ -26,6 +26,9 @@ To predict a mood from a text use:<br>
 <code>var result = m.guessMood(text);</code><br>
 <code>console.log(result);</code><br>
 
+## Restriction
+tmoodjs only works with a text without symbols and extrange characters. (ñ doens't works). Use only lowercase letters.
+
 ## Note
 Training data was trained with only 35 simple phrases and 19.990 iterations with a training error: 0,012046 
 
@@ -56,6 +59,10 @@ Para predecir un estado de ánimo utilice:<br>
 <code>m.loadTrainingData('es');</code><br>
 <code>var resultado = m.guessMood(texto);</code><br>
 <code>console.log(resultado);</code><br>
+
+## Restricciones
+tmoodjs solo funciona con texto sin símbolos y sin caracteres extraños. ( la ñ no funciona). Usar solamente letras minúsculas.
+
 ## Nota
 Los datos del entrenamiento fueron creados con únicamente 35 frases simples en español y 19.990 iteraciones y con un error de entrenamiento de: 0,012046 
 

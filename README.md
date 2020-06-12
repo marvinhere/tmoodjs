@@ -13,7 +13,7 @@ To start using tmoodjs it is necessary to create an object and initialize the br
 <br>
 ### Set training data
 #### Spanish Training data
-m.loadTrainingData('es');
+<code>m.loadTrainingData('es');</code>
 <br>
 ### Mood prediction function
 To predict a mood from a text use:<br>
@@ -44,7 +44,7 @@ Para empezar a usar tmoodjs es necesario crear un objeto e inicializar la neuron
 <br>
 ### Agregar datos de entrenamiento
 #### Datos entrenados en español
-m.loadTrainingData('es');
+<code>m.loadTrainingData('es');</code>
 <br>
 ### Función de predicción de estádos de ánimo
 Para predecir un estado de ánimo utilice:<br>

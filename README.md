@@ -1,4 +1,4 @@
-# tmoodjs Verssion Alpha 1.0
+# tmoodjs Version Alpha 1.0
 ## Description
 A text based mood detection.<br>
 Simple library to detect a mood from a single text. 
@@ -16,7 +16,7 @@ To start using tmoodjs it is necessary to create an object and initialize the br
 <code>m.loadTrainingData('es');</code>
 <br>
 ### Mood prediction function
-To predict a mood from a text use:<br>
+To predict a mood from a text:<br>
 <code>m.guessMood(text);</code>
 ### Example
 <code>var text = 'He finalizado mi rutina de ejercicios';</code><br>

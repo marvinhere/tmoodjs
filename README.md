@@ -29,7 +29,7 @@ To predict a mood from a text:<br>
 
 ## Integration example
 
-![Integration](images/integration.jpg)
+![Integration](images/integration.png)
 
 ## Restriction
 tmoodjs only works with a text without symbols and extrange characters. (ñ doens't works). Use only lowercase letters.

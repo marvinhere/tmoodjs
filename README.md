@@ -1,4 +1,4 @@
-# tmoodjs
+# tmoodjs Verssion Alpha 1.0
 ## Description
 A text based mood detection.<br>
 Simple library to detect a mood from a single text. 

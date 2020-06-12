@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Training</title>
+</head>
+<body>
+	<button id="button">ENTRENAR</button><br>
+	<h1 id="status"></h1>
+	<script type="text/javascript" src="https://unpkg.com/brain.js@2.0.0-alpha.12/dist/brain-browser.min.js"></script>
+	<script src="data_entrenamiento.js"></script>
+<script type="text/javascript">
+	
+
+var button = document.getElementById( 'button' );
+
+button.addEventListener( 'click', function() {
+	var status = document.getElementById('status');
+	status.innerHTML = 'Entrenando... Al terminar se guardará un archivo json';
+	console.log('entrenando')
+	
+    const net = new brain.recurrent.LSTM();
+	
+	net.train(trainingData,{
+		log: true, 
+	});
+//Crear json
+	const json = net.toJSON();
+	var data = JSON.stringify(json);
+    var blob = new Blob( [ data ], {
+        type: 'application/octet-stream'
+    });
+	
+    url = URL.createObjectURL( blob );
+    var link = document.createElement( 'a' );
+    link.setAttribute( 'href', url );
+    link.setAttribute( 'download', 'training.json' );
+    
+    var event = document.createEvent( 'MouseEvents' );
+    event.initMouseEvent( 'click', true, true, window, 1, 0, 0, 0, 0, false, false, false, false, 0, null);
+    link.dispatchEvent( event );
+});
+
+//const output = net.run('abxz') // ''
+
+//console.log(output)
+
+</script>
+
+</body>
+</html>

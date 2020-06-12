@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="tmood.js"></script>
+</head>
+<body>
+	<input type="text" id="text">
+	<button id="adivinar">Adivinar</button>
+	<script type="text/javascript">
+		var texto = document.getElementById('text');
+		var m = new mood();
+		m.init();
+		m.loadTrainingData('es');
+		
+		var adivinar = document.getElementById('adivinar');
+		
+		adivinar.onclick = function(){
+			var resultado = m.guessMood(texto.value);
+			console.log(resultado);
+		}
+		
+		
+		
+	</script>
+</body>
+</html>

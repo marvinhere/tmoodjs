@@ -3,9 +3,8 @@
 A text based mood prediction.<br>
 Simple library to detect a mood from a single text. 
 ## Install
-Add tmoodjs to your html.<br>
-<code><script type="text/javascript" src="https://prueba-4eb4d.firebaseapp.com/tmood.js"></script></code>
-<br>
+Add tmoodjs to your html.
+
 ## How to use
 To start using tmoodjs it is necessary to create an object and initialize the brainjs neuron.<br>
 <code>var m = new mood();</code><br>
@@ -42,9 +41,8 @@ Training data was trained with only 35 simple phrases and 19.990 iterations with
 Detección de estado de ánimos basado en texto.<br>
 Librería simple para detectar estados de ánimo en base a un texto. 
 ## Instalación
-Agregar tmoodjs al html.<br>
-<code><script type="text/javascript" src="https://prueba-4eb4d.firebaseapp.com/tmood.js"></script></code>
-<br>
+Agregar tmoodjs al html.
+
 ## Cómo usar
 Para empezar a usar tmoodjs es necesario crear un objeto e inicializar la neurona artificial de brainjs.<br>
 <code>var m = new mood();</code><br>
